@@ -14,7 +14,7 @@ void main ()
 
         printf("Quantos reais voce investiu? R$ ");
         scanf("%f", &valor);
-        printf("Ok, e quanto eh o rendimento fixo mensal? R$ ");
+        printf("Ok, e quanto eh a taxa de rendimento fixo mensal? % ");
         scanf("%f", &rendimentoM);
         printf("Voce quer conferir qual sera o valor daqui a quantos anos?");
         scanf("%d", &anos);
