@@ -10,12 +10,12 @@ como a soma destes elementos:
 #include <stdio.h>
 void main ()
 {
-  int i, j, soma;
+  int i, j, soma=0;
 
     for (i=1, j=50; i<=50, j>=1; i++, j--)
     {
       printf("%d, %d, ", i, j);
+      soma= soma + i+j;
     }
-     soma= i+j;
       printf("a soma: %d \n", soma);
 }
